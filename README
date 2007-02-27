@@ -3,17 +3,17 @@ perl-DBD-mysql
 Perl bindings for the MySQL client library.
 
 Runtime requirements:
-  cygwin-1.5.20-1
-  libmysqlclient15-5.0.22-1
+  cygwin-1.5.24-2
+  libmysqlclient15-5.0.27-1
   perl-5.8.7-5
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.20-1
-  binutils-20050610-1
-  cygport-0.2.2-1
-  gcc-core-3.4.4-1
-  make-3.80-1
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.2.10-1
+  gcc-core-3.4.4-3
+  make-3.81-1
   perl-5.8.7-5
 
 Canonical homepage:
@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-DBD-mysql-3.0006-X-src.tar.bz2
+  unpack perl-DBD-mysql-4.001-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  ./DBD-mysql-3.0006-X.sh all
+  cygport ./perl-DBD-mysql-4.001-X.cygport all
 
 This will create:
-  /usr/src/perl-DBD-mysql-3.0006-X-src.tar.bz2
-  /usr/src/perl-DBD-mysql-3.0006-X.tar.bz2
+  /usr/src/perl-DBD-mysql-4.001-X-src.tar.bz2
+  /usr/src/perl-DBD-mysql-4.001-X.tar.bz2
 
 -------------------------------------------
 
@@ -44,25 +44,25 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/mysql.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/mysql/GetInfo.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/mysql/INSTALL.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Mysql.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Mysql/Statement.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBD/mysql/.packlist
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBD/mysql/libmysql.dll.a
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBD/mysql/mysql.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBD/mysql/mysql.dll
-  /usr/share/doc/Cygwin/perl-DBD-mysql-3.0006.README
-  /usr/share/doc/perl-DBD-mysql-3.0006/ChangeLog
-  /usr/share/doc/perl-DBD-mysql-3.0006/README
-  /usr/share/doc/perl-DBD-mysql-3.0006/TODO
+  /usr/share/doc/Cygwin/perl-DBD-mysql-4.001.README
+  /usr/share/doc/perl-DBD-mysql-4.001/ChangeLog
+  /usr/share/doc/perl-DBD-mysql-4.001/README
+  /usr/share/doc/perl-DBD-mysql-4.001/TODO
   /usr/share/man/man3/Bundle.DBD.mysql.3pm.gz
   /usr/share/man/man3/DBD.mysql.3pm.gz
   /usr/share/man/man3/DBD.mysql.INSTALL.3pm.gz
-  /usr/share/man/man3/Mysql.3pm.gz
   /usr/share/perl/cygwin-pods/5.8/DBD-mysql.pod
 
 ------------------
 
 Port Notes:
+
+----- version 4.001-1 -----
+Version bump.
 
 ----- version 3.0006-1 -----
 Initial release for Cygwin.
