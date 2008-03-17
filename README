@@ -5,16 +5,15 @@ Perl bindings for the MySQL client library.
 Runtime requirements:
   cygwin-1.5.25-7
   libmysqlclient15-5.0.45-1
-  perl-5.8.8-4
+  perl-5.10.0-3
+  perl-DBI-1.602-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.25-7
   binutils-20060817-1
-  cygport-0.3.7-1
+  cygport-0.3.9-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-5.8.8-4
 
 Canonical homepage:
   http://search.cpan.org/dist/DBD-mysql/
@@ -39,27 +38,25 @@ This will create:
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-DBD-mysql.sh
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Bundle/DBD/mysql.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/mysql.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/mysql/GetInfo.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/DBD/mysql/INSTALL.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBD/mysql/.packlist
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBD/mysql/libmysql.dll.a
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBD/mysql/mysql.bs
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/DBD/mysql/mysql.dll
-  /usr/share/doc/Cygwin/perl-DBD-mysql-4.006.README
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Bundle/DBD/mysql.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/mysql.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/mysql/GetInfo.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/mysql/INSTALL.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBD/mysql/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBD/mysql/mysql.dll
   /usr/share/doc/perl-DBD-mysql-4.006/ChangeLog
   /usr/share/doc/perl-DBD-mysql-4.006/README
   /usr/share/doc/perl-DBD-mysql-4.006/TODO
   /usr/share/man/man3/Bundle.DBD.mysql.3pm.gz
   /usr/share/man/man3/DBD.mysql.3pm.gz
   /usr/share/man/man3/DBD.mysql.INSTALL.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/DBD-mysql.pod
 
 ------------------
 
 Port Notes:
+
+----- version 4.006-2 -----
+Rebuilt for perl-5.10.
 
 ----- version 4.006-1 -----
 Version bump.

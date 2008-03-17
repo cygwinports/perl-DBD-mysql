@@ -1,4 +1,4 @@
 category: Database Perl
-requires: cygwin perl libmysqlclient15
+requires: cygwin libmysqlclient15 perl perl-DBI
 sdesc: "Perl bindings for the MySQL client library"
 ldesc: "Perl bindings for the MySQL client library"
