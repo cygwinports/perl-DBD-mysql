@@ -3,15 +3,15 @@ perl-DBD-mysql
 Perl bindings for the MySQL client library.
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  libmysqlclient15-5.0.45-1
+  cygwin-1.5.25-11
+  libmysqlclient15-5.0.51-1
   perl-5.10.0-3
-  perl-DBI-1.602-1
+  perl-DBI-1.604-1
 
 Build requirements:
 (besides corresponding devel packages)
   binutils-20060817-1
-  cygport-0.3.9-1
+  cygport-0.3.10-1
   gcc-core-3.4.4-3
   make-3.81-1
 
@@ -24,15 +24,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-DBD-mysql-4.006-X-src.tar.bz2
+  unpack perl-DBD-mysql-4.007-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-DBD-mysql-4.006-X.cygport all
+  cygport ./perl-DBD-mysql-4.007-X.cygport all
 
 This will create:
-  /usr/src/perl-DBD-mysql-4.006-X-src.tar.bz2
-  /usr/src/perl-DBD-mysql-4.006-X.tar.bz2
+  /usr/src/perl-DBD-mysql-4.007-X-src.tar.bz2
+  /usr/src/perl-DBD-mysql-4.007-X.tar.bz2
 
 -------------------------------------------
 
@@ -44,9 +44,9 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/DBD/mysql/INSTALL.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBD/mysql/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/DBD/mysql/mysql.dll
-  /usr/share/doc/perl-DBD-mysql-4.006/ChangeLog
-  /usr/share/doc/perl-DBD-mysql-4.006/README
-  /usr/share/doc/perl-DBD-mysql-4.006/TODO
+  /usr/share/doc/perl-DBD-mysql-4.007/ChangeLog
+  /usr/share/doc/perl-DBD-mysql-4.007/README
+  /usr/share/doc/perl-DBD-mysql-4.007/TODO
   /usr/share/man/man3/Bundle.DBD.mysql.3pm.gz
   /usr/share/man/man3/DBD.mysql.3pm.gz
   /usr/share/man/man3/DBD.mysql.INSTALL.3pm.gz
@@ -54,6 +54,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 4.007-1 -----
+Version bump.
 
 ----- version 4.006-2 -----
 Rebuilt for perl-5.10.
