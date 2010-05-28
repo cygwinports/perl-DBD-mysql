@@ -1,4 +1,4 @@
 category: Database Perl
-requires: libmysqlclient15 perl perl-DBI
+requires: libgcc1 libmysqlclient16 libssp0 perl perl-DBI
 sdesc: "Perl bindings for the MySQL client library"
 ldesc: "Perl bindings for the MySQL client library"
