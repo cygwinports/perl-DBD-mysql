@@ -1,4 +1,0 @@
-CPAN_AUTHOR=capttofu
-inherit perl
-
-DIFF_EXCLUDES="t"

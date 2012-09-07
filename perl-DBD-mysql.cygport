@@ -1,0 +1,10 @@
+CPAN_AUTHOR=capttofu
+inherit perl
+
+NAME="perl-DBD-mysql"
+VERSION=4.022
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl bindings for the MySQL client library"
+
+DIFF_EXCLUDES="t"
